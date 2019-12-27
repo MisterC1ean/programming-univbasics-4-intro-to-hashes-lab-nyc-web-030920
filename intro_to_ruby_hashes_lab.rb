@@ -35,4 +35,5 @@ def update_counting_hash(hash, key)
     hash[key] = 1
   end
   hash
+  #increment an existing value based on the provided key parameter, or create a new key/value pair using the provided key, setting the value to 1.
 end
